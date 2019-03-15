@@ -1,0 +1,10 @@
+div#mymodule_block_home p {
+    font-size: 125%;
+    font-style:sans-serif;
+    margin-top: 10px;
+    float: right;
+}
+
+#header .header-nav #_desktop_contact_link{
+    float: left;
+}
