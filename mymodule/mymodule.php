@@ -43,7 +43,7 @@ class MyModule extends Module
     if (!parent::install() ||
         !$this->registerHook('displayNav1') ||
         !$this->registerHook('header') ||
-        !Configuration::updateValue('MYMODULE_NAME', '')
+        !Configuration::updateValue('MYMODULE_NAME', '(Navn)')
     ) {
         return false;
     }
